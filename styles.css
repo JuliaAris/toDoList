@@ -1,0 +1,35 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 500px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#taskList {
+  font-size: 24px;
+}
+
+#taskList:hover {
+  cursor: pointer;
+}
+
+#addButton {
+  font-size: 18px;
+  padding: 6px;
+  margin: 10px;
+  background-color: greenyellow;
+}
+
+#taskInput {
+  font-size: 24px;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
